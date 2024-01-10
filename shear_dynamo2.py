@@ -1,4 +1,6 @@
 """
+- change timestep control and parameter selection 
+
 To run and plot using e.g. 4 processes:
     $ mpiexec -n 4 python3 shear_dynamo.py
     $ mpiexec -n 4 python3 plot_snapshots.py snapshots/*.h5
